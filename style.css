@@ -10,6 +10,9 @@ body {
 }
 
 .main-body {
+    width: 100%;
+    overflow: hidden;
+    background: #F3F1FF;
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -244,10 +247,19 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .container {
+    .main-body {
         width: 90%;
         margin: auto;
-        padding: 10px;
+    }
+
+    .container {
+
+        width: 90%;
+        margin: auto;
+
+
+
+
         overflow: hidden;
 
 
@@ -268,14 +280,18 @@ hr {
     }
 
     .nav-bg {
+        width: 100%;
         height: auto;
+        overflow: hidden;
     }
 
     .nav-sub {
         width: 90%;
         margin: auto;
         height: auto;
+
         flex-direction: column;
+
 
     }
 

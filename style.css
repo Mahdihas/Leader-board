@@ -1,0 +1,317 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+/* nav */
+.nav-bg {
+    width: 100%;
+    height: 94px;
+    background: #562EFF;
+}
+
+.idea {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 14px;
+    color: #fff;
+
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+
+}
+
+.light {
+    width: 40px;
+    height: 51px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #F3F1FF;
+    font-size: normal;
+
+
+
+
+}
+
+.menu p {
+    margin: 0 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 41px;
+    height: 41px;
+}
+
+.nav-sub {
+    width: 85%;
+    height: 94px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* nav */
+
+/* common */
+.container {
+    width: 85%;
+    background: #fff;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* commmon */
+
+/* player */
+.title {
+    color: #562EFF;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.top-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.player-box img {
+    width: 56px;
+    height: 56px;
+
+}
+
+.player-box {
+    display: flex;
+
+    align-items: center;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* player */
+/* top blog starts*/
+.top-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+}
+
+.blog-img {
+    width: 177px;
+    height: 117;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.author {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.author-name {
+    font-size: 16px;
+    text-decoration: none;
+    color: #562EFF;
+}
+
+.blog-h3 {
+
+    font-size: 18px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.fardin {
+    font-size: 14px;
+}
+
+/* top blog ends */
+/* latest starts */
+#sectwo {
+    margin-top: 20px;
+}
+
+.lates-item img {
+    width: 224px;
+    height: 104px;
+}
+
+.lates-item {
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+}
+
+.lates-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.course-title {}
+
+.filed {
+    color: #FFC014;
+    font-size: 12px;
+}
+
+.empty {
+    font-size: 12px;
+    color: #D1D1D1;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time {
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    padding: 5px;
+    color: #FF4A60;
+    font-size: 12px;
+}
+
+.time span {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+/* lates ends */
+
+/* media  */
+
+/* 668 */
+@media only screen and (max-width:668px) {
+
+    .top-players,
+    .top-blog,
+    .lates-main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        overflow: hidden;
+
+
+    }
+
+    .player-box,
+    .blog {
+        flex-direction: column;
+
+
+    }
+
+    .course-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav-bg {
+        height: auto;
+    }
+
+    .nav-sub {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .menu p {
+        margin: 0 14px;
+    }
+
+
+
+
+
+}
+
+
+/* 688 */
+/* 768 */
+@media only screen and (min-width:669px)and (max-width:992px) {
+
+    .top-players,
+    .top-blog,
+    .lates-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+
+
+    }
+
+    .nav-sub {
+        width: 90%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .course-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+
+}
+
+/* 768 */
+/* media  */

@@ -103,7 +103,10 @@ body {
 .title {
     color: #562EFF;
     font-size: 20px;
-    margin-top: 3px;
+    margin: 0;
+    padding: 10px 0;
+
+
 }
 
 .top-players {
@@ -247,29 +250,29 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .top-players {
+        grid-row-gap: 0px;
+    }
+
     .main-body {
         width: 90%;
         margin: auto;
-    }
-
-    .container {
-
-        width: 90%;
-        margin: auto;
-
-
-
-
         overflow: hidden;
-
-
     }
+
+
 
     .player-box,
     .blog {
         flex-direction: column;
 
 
+
+    }
+
+    .player-box {
+        justify-content: center;
+        align-items: center;
     }
 
 
